@@ -1,15 +1,15 @@
-import { Router } from "express"
+import { Router } from "express";
 
-import * as todosCtrl from "../controllers/todo.controller"
+import * as todosCtrl from "../controllers/todo.controller";
 
-const router = Router()
+const router = Router();
 
-router.get("/", todosCtrl.getTodos)
+router.get("/", todosCtrl.getTodos);
 
-router.post("/", todosCtrl.writeTodo)
+router.post("/", todosCtrl.writeTodo);
 
-router.put("/", todosCtrl.updateTodo)
+router.put("/:id", todosCtrl.updateTodo);
 
-router.delete("/:id", todosCtrl.removeTodo)
+router.delete("/:id", todosCtrl.removeTodo);
 
-export default router
+export default router;

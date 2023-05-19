@@ -1,5 +1,5 @@
 [
   { "id": 1, "content": "밥 먹기", "done": true },
   { "id": 2, "content": "독서", "done": false },
-  { "id": 3, "content": "공부하기", "done": false }
+  { "id": 3, "content": "간식 먹기", "done": false }
 ]
